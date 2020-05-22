@@ -1,0 +1,21 @@
+.lawka {
+  background-color: #FFFFFF;
+  display: flex;
+  width: 100vw;;
+  height: 100vh;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  .box {
+    border-radius: 5px;
+    box-shadow: -20px -20px 66px rgba(0, 0, 0, 0.15), 20px 20px 66px rgba(0, 0, 0, 0.15);
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(186, 49, 39, 0.37);
+
+    p {
+      font-weight: 900;
+    }
+  }
+}

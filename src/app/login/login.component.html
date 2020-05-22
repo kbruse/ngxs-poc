@@ -1,0 +1,19 @@
+<div class="login">
+  <div>
+    <h1 class="header">WELCOME TO SZAFA</h1>
+    <h2 class="sub-header">Everyone can have a go</h2>
+  </div>
+  <div class="box">
+    <form class="login__form form" [formGroup]="loginForm" (ngSubmit)="onLogin()">
+      <p>Enter your preferred user name</p>
+      <div class="form__inputs">
+        <mat-form-field appearance="standard">
+          <mat-label>Name*</mat-label>
+          <input matInput formControlName="username" type="text"/>
+        </mat-form-field>
+      </div>
+      <span class="form__required-info">*required fields</span>
+      <button class="form__btn primary-btn" type="submit">Go to room with szafa</button>
+    </form>
+  </div>
+</div>
